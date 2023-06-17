@@ -1,0 +1,46 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url('https://www.extensiv.com/hubfs/Skubana/Blog%20Pages/Imported_Blog_Media/ecommerce%20tools-Oct-12-2022-05-33-41-97-PM.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    background-attachment: fixed;
+}
+.ltit:hover{
+    font-size:25px;
+    text-decoration:none;
+    background-color: rgb(101, 193, 211);
+    color:rgb(4, 125, 136);
+}
+.ltit{
+    font-size:25px;
+    text-decoration:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+}
+.brandname{
+    color:rgb(14, 208, 101);
+}
+.txt{
+    float:center;
+    margin-left:45%;
+    margin-top:8%;
+    text-rendering: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:35%;
+    color:rgb(158, 82, 229);
+}
+.glow{
+    color:#24b681;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    animation:glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow{
+    from{
+        text-shadow:0 0 10px #7eda0f,0 0 20px #7eda0f,0 0 30px #7eda0f,0 0 40px #7eda0f,0 0 50px #7eda0f,0 0 60px #7eda0f,0 0 70px #7eda0f;
+    }
+    to{
+        text-shadow:0 0 20px #c210f8,0 0 30px #c210f8,0 0 40px #c210f8,0 0 50px #c210f8,0 0 60px #c210f8,0 0 70px #c210f8;
+    }
+}
